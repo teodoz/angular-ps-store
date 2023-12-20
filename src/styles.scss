@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "SST-Light";
+}
+
+@font-face {
+  font-family: "SST-Medium";
+  src: url(../src/assets/fonts/SST-Medium-latin.1167b.woff2);
+}
+
+@font-face {
+  font-family: "SST-Light";
+  src: url(../src/assets/fonts/SST-Light-latin.3cce6.woff2);
+}
+
+@font-face {
+  font-family: "SST-Roman";
+  src: url(../src/assets/fonts/SST-Roman-latin.40348.woff2);
+}
+
+@font-face {
+  font-family: "SST-Bold";
+  src: url(../src/assets/fonts/SST-Bold-latin.7c968.woff2);
+}

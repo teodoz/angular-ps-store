@@ -1,0 +1,12 @@
+<div class="card">
+  <div
+    class="card__image"
+    [style]="{ backgroundImage: 'url(' + game.imgUrl + ')' }"
+  >
+    <div class="card__platform">{{ game.platform }}</div>
+  </div>
+  <div class="card__title">{{ game.title }}</div>
+  <div class="card__pricing">
+    {{ game.price > 0 ? (game.price | currency : "BRL") : "Gratuito" }}
+  </div>
+</div>

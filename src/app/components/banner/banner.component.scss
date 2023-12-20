@@ -1,0 +1,44 @@
+.banner {
+  .banner__image {
+    background-image: url("../../../assets/images/banner-bg.jpg");
+    height: 370px;
+    background-size: cover;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    .banner__image__over {
+      img {
+        width: 60%;
+        height: 100%;
+      }
+    }
+  }
+  .banner__text {
+    padding: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.12);
+    width: 100%;
+    .banner__text__title {
+      font-family: "SST-Light";
+      font-weight: 100;
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+    }
+    .banner__text__subtitle {
+      font-size: 0.8rem;
+    }
+    .banner__button__primary {
+      background: #0072ce;
+      color: white;
+      border-radius: 16px;
+      padding: 6px 12px;
+      transition: background-color ease 0.5s;
+      cursor: pointer;
+      &:hover {
+        background: #005499;
+      }
+    }
+  }
+}

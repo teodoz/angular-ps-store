@@ -1,0 +1,12 @@
+<div [class]="{ mobile: mobile }">
+  <div *ngIf="mobile" class="header__menu__button" (click)="toggleMenu()">
+    <img width="30" src="/assets/images/burger.svg" alt="" />
+  </div>
+  <ul [class]="{ show: show }">
+    <li *ngFor="let item of menu">
+      <a [href]="item.url" [class]="{ active: item.active }">{{
+        item.label
+      }}</a>
+    </li>
+  </ul>
+</div>
