@@ -6,6 +6,16 @@
     padding: 0 10%;
     display: flex;
     align-items: center;
+    @media screen and (max-width: 478px) {
+      height: 250px;
+      .banner__image__over {
+        position: relative;
+        top: 24px;
+        img {
+          width: 80%;
+        }
+      }
+    }
     .banner__image__over {
       img {
         width: 60%;
@@ -20,6 +30,15 @@
     align-items: center;
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.12);
     width: 100%;
+
+    @media screen and (max-width: 478px) {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 24px;
+    }
+
     .banner__text__title {
       font-family: "SST-Light";
       font-weight: 100;

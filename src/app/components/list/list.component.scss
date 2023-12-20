@@ -3,4 +3,7 @@
   justify-content: flex-start;
   gap: 16px;
   flex-wrap: wrap;
+  @media screen and (max-width: 478px) {
+    justify-content: center;
+  }
 }
